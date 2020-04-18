@@ -93,7 +93,7 @@ header a{
     width:85%;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 950px) {
     #rightSide{
         flex-direction: row;
         justify-content:space-around;
