@@ -68,6 +68,18 @@ header a{
     text-decoration: none;
 }
 
+
+#rightSide{
+    flex-direction: row;
+    justify-content:space-around;
+    
+    align-items:center;
+}
+#leftSide {
+    justify-content:space-around;
+}
+
+
 #leftSide{
     /*max-height:150px;*/
     width:38%;
@@ -83,8 +95,6 @@ header a{
 
 #rightSide{
     width:62%;
-    flex-direction: column;
-    justify-content:space-evenly;
     /*padding:20px;*/
    
 }
@@ -93,14 +103,9 @@ header a{
     width:85%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media screen and (min-width: 400px){
     #rightSide{
-        flex-direction: row;
-        justify-content:space-around;
-        
-        align-items:center;
-    }
-    #leftSide {
-        justify-content:space-around;
+        flex-direction: column;
+        justify-content:space-evenly;
     }
   }
