@@ -57,6 +57,16 @@ header{
     justify-content:space-evenly;
 }
 
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer a{
+    color:#004461;
+    text-decoration: none;
+}
+
 #leftSide{
     max-height:150px;
     width:40%;
